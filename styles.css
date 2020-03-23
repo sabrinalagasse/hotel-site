@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@300;400;700&family=Josefin+Slab:ital,wght@0,400;0,600;1,400&display=swap');
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --green-color: #294214;
+    --light-green-color: #637554;
+    --gray-color: #bac1b8;
+    --seafoam-color: #9ac3a7;
+    --brown-color: #796851;
+    --blue-color: #58a4b0;
+    
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    transition: all 0.1s ease 0s;
+    color: var(--green-color);
+    opacity: 0.75;
+}
+a:hover {
+   text-decoration: underline;
+    opacity: 1;
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+p {
+    text-align: justify;
+    padding: 0.5em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links {
+    list-style: none;
+    padding-top: 1em;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0 1em;
+}
+.container{
+    display: grid;
+}
+.container img{
+    width: 100%;
+}
+.text {
+    background: linear-gradient(90deg, var(--seafoam-color), var(--seafoam-color),var(--blue-color), var(--blue-color));
+    margin: 0.5em 0em;
+}
+/*
+*******      MEDIA QUERIES FOR DESKTOP *****
+*/
